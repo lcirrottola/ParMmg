@@ -553,7 +553,7 @@ install(EXPORT ParMmgTargets
 ###############################################################################
 ADD_AND_INSTALL_EXECUTABLE ( ${PROJECT_NAME}
   "${pmmg_library_files}" ${pmmg_main_file} )
-
+MESSAGE("Just testing github actions!")
 IF ( DOWNLOAD_MMG )
   Add_Dependencies(${PROJECT_NAME} Mmg)
 ENDIF ( )
